@@ -1,7 +1,10 @@
-# Machine-Learning-Model-for-Solar-Energy-Forecast
+# DataHack @ Odiasay: Solar Energy Forecast
+Forked from [mriganv/Machine-Learning-Model-for-Solar-Energy-Forecast](https://github.com/mriganv/Machine-Learning-Model-for-Solar-Energy-Forecast)
+
 ## About
 
-This is a data science project about developing a machine learning regression model to accurately predict the rate of solar output measured as a % of baseline of capacity. 
+This is a data science project about developing a machine learning regression model to accurately predict the rate of solar output measured as a % of baseline of capacity.
+The project was presented during April 2025 [DataHack](https://datahack.org.il/) @ [Odiasay](https://www.madaney.net/odyssey) hackaton.
 
 ## Data Collection
 
