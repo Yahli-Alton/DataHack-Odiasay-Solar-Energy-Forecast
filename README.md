@@ -30,10 +30,13 @@ The irradiance data is used to calculate the power output of a solar panel.
 Key terms:
 * [Global Horizontal Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/global-horizontal-irradiance/) (GHI) - The total amount of shortwave radiation received from above by a surface horizontal to the ground.
   - GHI may be calculated from direct normal irradiance (DNI) and diffuse horizontal irradiance (DHI) using the following equation:
+  
   $$GHI = DNI \cdot \cos(\theta_Z) + DHI$$
 * [Plane of Array](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/plane-of-array-poa-irradiance/) (POA) Irradiance - The amount of solar radiation received by a photovoltaic panel, taking into account the angle of the sun relative to the panel and the angle of the panel relative to the ground.
   - Mathematically POA irradiance, $E_{POA}$, is:
+  
     $$E_{POA} = E_b + E_g + E_d$$
+   
     where $E_b$ is the POA beam component, 
     $E_g$ is the POA ground-reflected component, and 
     $E_d$ is the POA sky-diffuse component.
