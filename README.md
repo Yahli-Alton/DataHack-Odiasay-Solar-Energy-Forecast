@@ -19,3 +19,21 @@ Relative power average and standard deviation for each hour of the day in the da
 
 Average weekly relative power distribution.
 ![power_weekly](output/avg_relative_power_by_week.png)
+
+## Physical Model   
+
+Irradiance is the power per unit area received from the sun in the form of electromagnetic radiation in the wavelength range of the measuring instrument.
+Irradiance is often measured in watts per square meter (W/m²).
+The irradiance data is used to calculate the power output of a solar panel.
+[read more.](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/)
+
+Key terms:
+* [Global Horizontal Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/global-horizontal-irradiance/) (GHI) - The total amount of shortwave radiation received from above by a surface horizontal to the ground.
+  - GHI may be calculated from direct normal irradiance (DNI) and diffuse horizontal irradiance (DHI) using the following equation:
+  $$GHI = DNI \cdot \cos(\theta_Z) + DHI$$
+* [Plane of Array](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/plane-of-array-poa-irradiance/) (POA) Irradiance - The amount of solar radiation received by a photovoltaic panel, taking into account the angle of the sun relative to the panel and the angle of the panel relative to the ground.
+  - Mathematically POA irradiance, $E_{POA}$, is:
+    $$E_{POA} = E_b + E_g + E_d$$
+    where $E_b$ is the POA beam component, 
+    $E_g$ is the POA ground-reflected component, and 
+    $E_d$ is the POA sky-diffuse component.
