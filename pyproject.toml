@@ -1,0 +1,18 @@
+[project]
+name = "datahack-odiasay-solar-energy-forecast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lightgbm>=4.6.0",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "notebook>=7.3.3",
+]
